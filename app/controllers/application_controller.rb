@@ -21,4 +21,11 @@ def current_user
   def is_logged_in?
     session[:user_id].present?
   end
+
+  def force_login
+    unless is_logged_in?
+      flash[:error] = "You must be logged in to access"
+      redirect_to root_path
+    end
+  end
 end
