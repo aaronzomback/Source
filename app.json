@@ -1,0 +1,5 @@
+{
+"scripts": {
+  "post deploy": rails db:migrate
+}
+}
