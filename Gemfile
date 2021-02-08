@@ -44,7 +44,7 @@ gem 'activeadmin'
 gem 'devise'
 
 # add in our image upload
-gem 'carrierwave', '~> 2.0'
+gem 'carrierwave', '~> 2.1'
 gem 'mini_magick'
 gem 'fog-aws'
 
